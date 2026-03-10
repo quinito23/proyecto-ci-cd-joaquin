@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Hola Joaquín, el servidor está funcionando correctamente en Kubernetes!"
+    return "Hola Joaquin, el servidor esta funcionando correctamente en Kubernetes!"
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
